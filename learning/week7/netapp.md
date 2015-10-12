@@ -264,7 +264,7 @@ plt.show()
 ```
 
 
-![png](NetAppDataAnalysis_files/NetAppDataAnalysis_7_0.png)
+![png](NetAppDataAnalysis_7_0.png)
 
 
 ### Mean and Standard Deviation
@@ -310,7 +310,7 @@ plt.show()
 ```
 
 
-![png](NetAppDataAnalysis_files/NetAppDataAnalysis_11_0.png)
+![png](NetAppDataAnalysis_11_0.png)
 
 
 From this we can interpret several things.
@@ -471,7 +471,7 @@ plt.show()
 ```
 
 
-![png](NetAppDataAnalysis_files/NetAppDataAnalysis_22_0.png)
+![png](NetAppDataAnalysis_22_0.png)
 
 
 We will also do a histogram.
@@ -626,7 +626,7 @@ plt.show()
 ```
 
 
-![png](NetAppDataAnalysis_files/NetAppDataAnalysis_31_0.png)
+![png](NetAppDataAnalysis_31_0.png)
 
 
 Hey! That's perfect! That shows that the number of *bad* rows was really really high for specific versions, but have since been reduced to a lower amount. That's exactly what we wanted to see. As per request, now let's normalize this. In other words, let's examine the percent of bad rows for each release.
@@ -705,7 +705,7 @@ plt.show()
 ```
 
 
-![png](NetAppDataAnalysis_files/NetAppDataAnalysis_38_0.png)
+![png](NetAppDataAnalysis_38_0.png)
 
 
 These plots can be interpreted by looking at the $y$ axis. In each graph, the $y$ axis corresponds to the percentage of *bad* rows for the specific software or firmware version. We can see that there appears to be no strong correlation between versions and the number of bad rows.
