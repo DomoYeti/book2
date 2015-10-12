@@ -45,26 +45,28 @@ $('button#show').click(function(){
     $('.myviz').html(value)
 })
 
-$('button#setcolor').click(function(){    
-    // TODO: set the background color of the viz window to the specified color
-    $('.myviz').css('background-color','TODO')
+$('button#setcolor').click(function(){
+    $('.myviz').css('background-color',$('input#setcolor').val())
 })
 
-// TODO: add an event handler for "Set Height" button to set the height of the
-// viz window to the specified value
-
-// TODO: add an event handler for "Show Bars (1)" to display a specified number of
-// vertical bars
-$('button#bars1').click(function(){    
-    var svg = "<svg><rect height='50' width='10'/><rect height='50' width='10' x='20'/></svg>"
-    $('.myviz').html(svg)    
+$('button#setheight').click(function(){
+    $('.myviz').height($('input#setheight').val())
 })
 
-// TODO: add an event handler for "Show Bars (2)" to display a specified number of
-// vertical bars in the specified color
+$('button#bars1').click(function(){
+    var bar = "" for (i=0; i < $('input#bars1-number').val(); i++) {bar += ""} 
+    bar += "" $('.myviz').html(bar)
+})
 
-// TODO: add an event handler for "Show Bars (3)" to display a specified number of
-// vertical bars in the specified color at the specified height
+$('button#bars2').click(function(){
+    var bar = "" for (i=0; i < $('input#bars2-number').val(); i++) {bar += ""}
+    bar += "" $('.myviz').html(bar)
+})
+
+$('button#bars3').click(function(){
+    var bar = "" for (i=0; i < $('input#bars3-number').val(); i++) {bar += ""}
+    bar += "" $('.myviz').html(bar)
+})
 
 
 {% endscript %}
