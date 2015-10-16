@@ -3,17 +3,17 @@
 Pick one question class and build an exploratory visualization interface for it.
 The question class you pick must have at least three variables that can be changed.
 
-## (Question class)
+## What businesses in city (X) have closing hours (Y) with a rating of (Z)?
 
 <div style="border:1px grey solid; padding:5px;">
-    <div><h5>X</h5>
-        <input id="arg1" type="text" value="something"/>
+    <div><h5>City</h5>
+        <input id="arg1" type="text" value="City"/>
     </div>
-    <div><h5>Y</h5>
-        <input id="arg2" type="text" value="something"/>
+    <div><h5>Closing Hours</h5>
+        <input id="arg2" type="text" value="00:00"/>
     </div>
-    <div><h5>Z</h5>
-        <input id="arg2" type="text" value="something"/>
+    <div><h5>Stars</h5>
+        <input id="arg3" type="text" value="0.0"/>
     </div>    
     <div style="margin:20px;">
         <button id="viz">Vizualize</button>
@@ -78,6 +78,24 @@ function viz(arg1, arg2, arg3){
         return 'f' + i
     }
 
+ //   items = _.chain(items)
+//	.filter(function(n) {
+//		return (n.city == arg1)
+//	}).map(function(n) {
+//		return n.open
+//	}).filter(function(n) {
+//		return (n.open == arg2)
+//	}).filter(function(n) {
+//		return (n.stars &gt; parseInt(arg3))
+//	}).groupBy(function(n) {
+//		return n.stars
+//	}).mapValues(function(x) {
+//		return x.length
+//	}).pairs()
+//	.sortBy(function(x) {
+//		return parseInt(x[0])
+//	}).value();
+
     // TODO: modify the logic here based on your UI
     // take the first 20 items to visualize    
     items = _.take(items, 20)
@@ -103,9 +121,9 @@ function viz(arg1, arg2, arg3){
 }
 
 $('button#viz').click(function(){    
-    var arg1 = 'TODO'
-    var arg2 = 'TODO'
-    var arg3 = 'TODO'    
+    var arg1 = $('input#arg1').val()
+    var arg2 = $('input#arg2').val()
+    var arg3 = $('input#arg3').val()    
     viz(arg1, arg2, arg3)
 })  
 

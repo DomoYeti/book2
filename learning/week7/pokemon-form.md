@@ -206,8 +206,6 @@ $('button#viz-compare').click(function(){
 // TODO: complete the code below
 
 function vizAsSortedHorizontalBars(attributeName, sortDirection){
-        // TODO: modify this function to visualize the data as horizontal
-    // bars to compare attack points
 
     // define a template string
     var tplString = '<g transform="translate(0 ${d.y})"> \
@@ -289,10 +287,6 @@ $('button#viz-horizontal-sorted-desc').click(function(){
     vizAsSortedHorizontalBars(attributeName, sortDirection)
 })  
 
-// TODO: complete the code below
-// visualize three attributes, the first two attributes as side-by-side bar charts
-// using bar widths to represent attribute values, and the third attribute's value
-// is represented using the red color brightness
 function vizThreeAttributes(attributeName1, attributeName2, attributeName3){
         var tplString = '<g transform="translate(120 ${d.y})"> \
                     <rect   \

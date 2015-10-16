@@ -15,29 +15,29 @@ Three example of specific questions in this class are:
 Come up with five additional question classes. Each must have two or three
 variables.
 
-## (Question template)
+## What businesses have category (W) in city (X) with (Y) reviews and a rating of (Z)?
 Three example of specific questions in this class are:
-* (specific question)
-* (specific question)
-* (specific question)
+* What businesses have category Medical in Phoenix with 100 reviews and a rating of 3.0?
+* What businesses have category Shopping in Pittsburgh with 50 reviews and a rating of 3.5?
+* What businesses have category Sports in Tuscan with 200 reviews and a rating of 4.0?
 
-## (Question template)
+## What businesses per state (X) have the most stars (Y), and what longitude (Z) is the best?
 Three example of specific questions in this class are:
-* (specific question)
-* (specific question)
-* (specific question)
+* What Longitude in Colorado has the most stars?
+* What Longitude in Wyoming has the most stars?
+* What Longitude in Texas has the most stars?
 
-## (Question template)
+## What is the most popular category (X) in state (Y)?
 Three example of specific questions in this class are:
-* (specific question)
-* (specific question)
-* (specific question)
+* What is the most popular Food in Colorado?
+* What is the most popular Shopping in New York?
+* What is the most popular Recreation in Wyoming?
 
-## (Question template)
+## What businesses in city (X) are open (Y) with a rating of (Z)?
 Three example of specific questions in this class are:
-* (specific question)
-* (specific question)
-* (specific question)
+* What businesses in Denver are open with a rating of 4.0?
+* What businesses in New York are open with a rating of 3.5?
+* What businesses in Savannah are open with a rating of 4.5?
 
 ## (Question template)
 Three example of specific questions in this class are:
